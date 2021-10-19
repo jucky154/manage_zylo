@@ -4,5 +4,23 @@ msg = "入力中のコールサインを総務省APIで検索する拡張機能�
 web = "https://github.com/jucky154/soumuAPI"
 use = ["dll.soumu"]
 
+[pkg.cwtrain]
+tag = "CW練習DLL"
+msg = "zLogと同じ場所に置いたcallsigns.txtに書いたコールサインを自動的に流し、入力したコールサインと合致するかを判断するCW練習拡張機能です"
+web = "https://github.com/jucky154/cwtrainer"
+use = ["dll.cwtrain", "cfg.cwtrain", "dat.cwtrain", "txt.cwtrain"]
+
 [dll.soumu]
 url = "https://github.com/jucky154/soumuAPI/releases/download/nightly/soumuAPI.dll"
+
+[dll.cwtrain]
+url = "https://github.com/jucky154/cwtrainer/releases/download/nightly2/cwtrainer.dll"
+
+[cfg.cwtrain]
+url = "https://raw.githubusercontent.com/jucky154/cwtrainer/main/cwtrainer.cfg"
+
+[dat.cwtrain]
+url = "https://raw.githubusercontent.com/jucky154/cwtrainer/main/cwtrainer.dat"
+
+[txt.cwtrain]
+url = "https://raw.githubusercontent.com/jucky154/cwtrainer/blob/main/callsigns.txt"
