@@ -6,9 +6,3 @@ use = ["dll.soumu"]
 
 [dll.soumu]
 url = "https://github.com/jucky154/soumuAPI/releases/nightly/soumu.dll"
-
-[cfg.allja1]
-url = "https://allja1.org/allja1.cfg"
-
-[dat.allja1]
-url = "https://allja1.org/allja1.dat"
