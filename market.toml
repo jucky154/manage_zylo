@@ -5,4 +5,4 @@ web = "https://github.com/jucky154/soumuAPI"
 use = ["dll.soumu"]
 
 [dll.soumu]
-url = "https://github.com/jucky154/soumuAPI/releases/nightly/soumu.dll"
+url = "https://github.com/jucky154/soumuAPI/releases/download/nightly/soumuAPI.dll"
