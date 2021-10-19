@@ -1,0 +1,14 @@
+[pkg.soumu]
+tag = "総務省API"
+msg = "入力中のコールサインを総務省APIで検索する拡張機能です"
+web = "https://github.com/jucky154/soumuAPI"
+use = ["dll.soumu"]
+
+[dll.soumu]
+url = "https://github.com/jucky154/soumuAPI/releases/nightly/soumu.dll"
+
+[cfg.allja1]
+url = "https://allja1.org/allja1.cfg"
+
+[dat.allja1]
+url = "https://allja1.org/allja1.dat"
