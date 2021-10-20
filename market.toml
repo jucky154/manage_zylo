@@ -23,4 +23,4 @@ url = "https://raw.githubusercontent.com/jucky154/cwtrainer/main/cwtrainer.cfg"
 url = "https://raw.githubusercontent.com/jucky154/cwtrainer/main/cwtrainer.dat"
 
 [txt.cwtrain]
-url = "https://raw.githubusercontent.com/jucky154/cwtrainer/blob/main/callsigns.txt"
+url = "https://raw.githubusercontent.com/jucky154/cwtrainer/main/callsigns.txt"
