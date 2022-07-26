@@ -9,6 +9,7 @@ tag = "CW練習DLL"
 msg = "zLogと同じ場所に置いたcallsigns.txtに書いたコールサインを自動的に流し、入力したコールサインと合致するかを判断するCW練習拡張機能です"
 web = "https://github.com/jucky154/cwtrainer"
 use = ["dll.cwtrain", "cfg.cwtrain", "dat.cwtrain", "txt.cwtrain"]
+exp = "stable"
 
 [dll.soumu]
 url = "https://github.com/jucky154/soumuAPI/releases/download/nightly/soumuAPI.dll"
