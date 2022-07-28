@@ -12,11 +12,18 @@ web = "https://github.com/jucky154/cwtrainer"
 use = ["dll.cwtrain", "cfg.cwtrain", "dat.cwtrain", "txt.cwtrain"]
 exp = "stable"
 
+[pkg.infoEs]
+tag = "Es通知プラグイン"
+msg = "スポラディックE層の発生の有無を表示する拡張機能です"
+web = "https://github.com/jucky154/infoEs"
+use = ["dll.infoEs"]
+
+
 [dll.soumu]
 url = "https://github.com/jucky154/soumuAPI/releases/download/nightly/soumuAPI.dll"
 
 [dll.cwtrain]
-url = "https://github.com/jucky154/cwtrainer/releases/download/nightly2/cwtrainer.dll"
+url = "https://github.com/jucky154/cwtrainer/releases/download/nightly/cwtrainer.dll"
 
 [cfg.cwtrain]
 url = "https://raw.githubusercontent.com/jucky154/cwtrainer/main/cwtrainer.cfg"
@@ -26,3 +33,7 @@ url = "https://raw.githubusercontent.com/jucky154/cwtrainer/main/cwtrainer.dat"
 
 [txt.cwtrain]
 url = "https://raw.githubusercontent.com/jucky154/cwtrainer/main/callsigns.txt"
+
+["dll.infoEs"]
+url = "https://github.com/jucky154/infoEs/releases/download/nightly/infoEs.dll"
+
