@@ -21,9 +21,11 @@ use = ["dll.infoEs"]
 
 [dll.soumu]
 url = "https://github.com/jucky154/soumuAPI/releases/download/nightly/soumuAPI.dll"
+sum = "https://github.com/jucky154/soumuAPI/releases/download/nightly/soumuAPI.dll.md5"
 
 [dll.cwtrain]
 url = "https://github.com/jucky154/cwtrainer/releases/download/nightly/cwtrainer.dll"
+sum = "https://github.com/jucky154/cwtrainer/releases/download/nightly/cwtrainer.dll.md5"
 
 [cfg.cwtrain]
 url = "https://raw.githubusercontent.com/jucky154/cwtrainer/main/cwtrainer.cfg"
@@ -36,4 +38,5 @@ url = "https://raw.githubusercontent.com/jucky154/cwtrainer/main/callsigns.txt"
 
 [dll.infoEs]
 url = "https://github.com/jucky154/infoEs/releases/download/nightly/infoEs.dll"
+sum = "https://github.com/jucky154/infoEs/releases/download/nightly/infoEs.dll.md5"
 
