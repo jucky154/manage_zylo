@@ -17,7 +17,13 @@ tag = "Es通知プラグイン"
 msg = "スポラディックE層の発生の有無を表示する拡張機能です"
 web = "https://github.com/jucky154/infoEs"
 use = ["dll.infoEs"]
+exp = "stable"
 
+[pkg.cwListener]
+tag = "CW解析DLL"
+msg = "CWの音声を自動的にデコードする拡張機能です。（アルファ版）"
+web = "https://github.com/jucky154/cwListener"
+use = ["dll.cwListener"]
 
 [dll.soumu]
 url = "https://github.com/jucky154/soumuAPI/releases/download/nightly/soumuAPI.dll"
@@ -39,4 +45,8 @@ url = "https://raw.githubusercontent.com/jucky154/cwtrainer/main/callsigns.txt"
 [dll.infoEs]
 url = "https://github.com/jucky154/infoEs/releases/download/nightly/infoEs.dll"
 sum = "https://github.com/jucky154/infoEs/releases/download/nightly/infoEs.dll.md5"
+
+[dll.cwListener]
+url = "https://github.com/jucky154/cwListener/releases/download/nightly/cwListener.dll"
+sum = "https://github.com/jucky154/cwListener/releases/download/nightly/cwListener.dll.md5"
 
