@@ -14,7 +14,7 @@ exp = "stable"
 
 [pkg.infoEs]
 tag = "Es通知プラグイン"
-msg = "スポラディックE層の発生の有無を表示する拡張機能です"
+msg = "スポラディックE層の発生の有無を表示する拡張機能です(現在、接続に時間がかかり表示に時間がかかるようです）"
 web = "https://github.com/jucky154/infoEs"
 use = ["dll.infoEs"]
 exp = "stable"
@@ -24,6 +24,13 @@ tag = "CW解析DLL"
 msg = "CWの音声を自動的にデコードする拡張機能です。（アルファ版）"
 web = "https://github.com/jucky154/cwListener"
 use = ["dll.cwListener"]
+
+[pkg.comportlist]
+tag = "COMポート一覧"
+msg = "シリアルCOMポートに接続されているものの一覧を表示します"
+web = "https://github.com/jucky154/comportlist"
+use = ["dll.comportlist"]
+exp = "stable"
 
 [dll.soumu]
 url = "https://github.com/jucky154/soumuAPI/releases/download/nightly/soumuAPI.dll"
@@ -50,3 +57,6 @@ sum = "https://github.com/jucky154/infoEs/releases/download/nightly/infoEs.dll.m
 url = "https://github.com/jucky154/cwListener/releases/download/nightly/cwListener.dll"
 sum = "https://github.com/jucky154/cwListener/releases/download/nightly/cwListener.dll.md5"
 
+[pkg.comportlist]
+url = "https://github.com/jucky154/comportlist/releases/download/nightly/comportlist.dll"
+sum = "https://github.com/jucky154/comportlist/releases/download/nightly/comportlist.dll.md5"
