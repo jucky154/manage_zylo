@@ -24,6 +24,7 @@ tag = "CW解析DLL"
 msg = "CWの音声を自動的にデコードする拡張機能です。（アルファ版）"
 web = "https://github.com/jucky154/cwListener"
 use = ["dll.cwListener"]
+exp = "stable"
 
 [pkg.comportlist]
 tag = "COMポート一覧"
