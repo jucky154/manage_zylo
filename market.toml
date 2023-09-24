@@ -1,9 +1,8 @@
 [pkg.soumu]
 tag = "総務省API"
-msg = "入力中のコールサインを総務省APIで検索する拡張機能です"
+msg = "入力中のコールサインを総務省APIで検索する拡張機能です(総務省APIの変更により、修正中です。使用できません)"
 web = "https://github.com/jucky154/soumuAPI"
 use = ["dll.soumu"]
-exp = "stable"
 
 [pkg.cwtrain]
 tag = "CW練習DLL"
